@@ -1,0 +1,6 @@
+1. A set of functions you want to include in your application
+
+2. With module.export it is an empty object by default, and it can be reassigned to anything in the module,
+   however with any reassignment of exports will not be available outside of the module.
+
+3. Module exports are the instruction that tells Node.js which bits of code (functions, objects, strings, etc.) to “export” from a given file so other files are allowed to access the exported code
